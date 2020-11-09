@@ -22,7 +22,7 @@ const IndexPage: NextPage = () => {
 
   const memberPairsList = () => {
     let list: string[][][] = []
-    times(slots, (i) => {
+    times(slots, () => {
       list.push(memberPairs())
       // いい感じにする
     })
