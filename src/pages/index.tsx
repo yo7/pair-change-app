@@ -3,7 +3,7 @@ import { css } from "linaria"
 import { NextPage } from "next"
 import { shuffle, times } from "lodash"
 
-const IndexPage: NextPage = (props) => {
+const IndexPage: NextPage = () => {
   const [members, setMembers] = React.useState<string[]>([])
   const [slots, setSlots] = React.useState(8)
 
