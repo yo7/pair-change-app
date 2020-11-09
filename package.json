@@ -1,0 +1,34 @@
+{
+  "name": "pair-chagne-app",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "gray-matter": "^4.0.2",
+    "linaria": "^2.0.0",
+    "lodash": "^4.17.20",
+    "next": "^10.0.0",
+    "pkg-dir": "^5.0.0",
+    "prismjs": "^1.22.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-feather": "^2.0.8",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "remark-prism": "^1.1.17"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.165",
+    "@types/node": "^14.14.6",
+    "@types/pkg-dir": "^2.0.1",
+    "@types/react": "^16.9.55",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "prettier --list-different src/**/*.{ts,tsx}",
+    "lint:fix": "prettier --write src/**/*.{ts,tsx}",
+    "test:type": "tsc --noEmit"
+  }
+}
